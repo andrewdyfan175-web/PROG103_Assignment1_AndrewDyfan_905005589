@@ -88,7 +88,8 @@ def process_clinic_queue():
     total_revenue = len(patient_records) * CONSULTATION_FEE
     print("-" * 40)
     print(f"Total Patients: {len(patient_records)}")
-    print(f"Estimated Revenue: Le{total_revenue:.2f}")
+    print(f"Estimated Revenue: Le1"
+          f"{total_revenue:.2f}")
     print("=" * 40)
 
 
