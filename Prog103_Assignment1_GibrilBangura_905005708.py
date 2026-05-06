@@ -9,10 +9,12 @@ def calculate_wait_time(queue_position):
 
 def display_header():
     """Displays the system branding and SDG alignment."""
-    print("\n" + "=" * 45)
-    print("  HEALSYNC: SDG 3 QUEUE MANAGEMENT SYSTEM")
+    print("\n" + "~" * 47)
+    print(" HEALSYNC: SDG 3  'Good Health & Well-beinng'")
+    print(" CITING SYSTEM: Clinic QUEUE MANAGEMENT SYSTEM")
+
     print("  Goal: Ensure Healthy Lives & Well-being")
-    print("=" * 45)
+    print("~" * 47)
 
 
 def main():
